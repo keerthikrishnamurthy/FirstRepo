@@ -7,6 +7,8 @@ import org.testng.annotations.Test;
 
 public class YahooSearchTest {
 private WebDriver driver;
+
+//Modify for github
     @BeforeTest(groups = {"hello"})
     public void setupDriver(){
     System.setProperty("webdriver.gecko.driver","C:\\Users\\keert\\IdeaProjects\\WebDriverJavaBootCamp\\src\\test\\resources\\geckodriver.exe");
